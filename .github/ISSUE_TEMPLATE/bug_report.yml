@@ -1,0 +1,12 @@
+name: Bug report
+description: Report a reproducible Management problem.
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: problem
+    attributes: {label: What happened?, description: Describe the problem and expected behavior.}
+    validations: {required: true}
+  - type: textarea
+    id: reproduce
+    attributes: {label: Steps to reproduce, description: Give the smallest reliable reproduction.}
+    validations: {required: true}
