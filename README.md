@@ -4,7 +4,7 @@ Open-source interactive web learning environment for management fundamentals and
 
 > **Status:** Foundation v0.1. Decision simulations, team/project scenarios, planning exercises, and risk tools are roadmap items, not implemented features yet.
 
-**Live site target:** https://inmersion-cs.github.io/Management/
+**Live site:** https://inmersion-cs.github.io/Management/
 
 ## Why this project exists
 
