@@ -1,22 +1,18 @@
 # Management
 
-Open-source interactive web learning environment for management fundamentals and decision-making.
+Interactive learning project for management fundamentals and decision-making.
 
-> **Status:** Foundation v0.1. Decision simulations, team/project scenarios, planning exercises, and risk tools are roadmap items, not implemented features yet.
+> **Status:** Foundation v0.1. The current release provides the application shell and project infrastructure. Decision simulations, team/project scenarios, planning exercises, and risk tools are planned work.
 
 **Live site:** https://inmersion-cs.github.io/Management/
 
-## Why this project exists
+## Learning focus
 
-Management concepts become more useful when they are applied to choices, constraints, people, resources, and consequences. This project will grow into a scenario-driven environment for that practice.
+The project treats management as a set of choices made under constraints rather than a list of definitions. Planned areas include planning, organization, coordination, teams, projects, risk, decision-making, and evaluation of outcomes.
 
-## Learning scope
+## Current implementation
 
-Planned areas include management fundamentals, planning, organization, decision-making, coordination, teams, projects, risk, and reflective evaluation of choices.
-
-## Current features
-
-Foundation v0.1 supplies an accessible React + TypeScript shell, subject-specific routes and roadmap, dependency audit, tests, strict type checking, linting, production build, Pages automation, and open-source project files.
+The repository currently contains a React + TypeScript application shell with Management-specific routes and roadmap content, responsive keyboard-accessible navigation, automated type/lint/test/build checks, and GitHub Pages deployment.
 
 ## Roadmap
 
@@ -24,25 +20,31 @@ Foundation v0.1 supplies an accessible React + TypeScript shell, subject-specifi
 2. Organization
 3. Decision making
 4. Teams and risk
-5. Later: interactive management scenarios
+5. Interactive management scenarios
 
 ## Development
 
-Node.js 22.13+ is required.
+Node.js 22.13 or newer is required.
 
 ```bash
 npm ci
 npm run dev
+```
+
+Quality checks:
+
+```bash
 npm audit --audit-level=high
 npm run typecheck
 npm run lint
 npm run test:run
 npm run build
+npm run format:check
 ```
 
 ## Contributing and accessibility
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md). Preserve semantic HTML, keyboard operation, visible focus, touch-friendly controls, reduced-motion behavior, and accurate feature claims.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md). Keep feature claims accurate and preserve semantic HTML, keyboard operation, visible focus, touch-friendly controls, and reduced-motion behavior.
 
 ## License
 
